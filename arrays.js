@@ -3,7 +3,6 @@ chocolateBars.push ["butterfinger"]
 
 var addElementToBeginningOfArray = ["February", "March", "April"];
 addElementToBeginningOfArray.unshift('January') 
-console.log(addElementToBeginningOfArray);
 
 var destructivelyAddElementToBeginningOfArray = ["February", "March", "April"]
 destructivelyAddElementToBeginningOfArray['January'] = 'January'
