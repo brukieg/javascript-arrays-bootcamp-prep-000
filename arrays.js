@@ -6,6 +6,7 @@ addElementToBeginningOfArray.unshift('January')
 
 var destructivelyAddElementToBeginningOfArray = ["February", "March", "April"]
 destructivelyAddElementToBeginningOfArray['January'] = 'January'
+destructivelyAddElementToBeginningOfArray = ["January",...destructivelyAddElementToBeginningOfArray]
 
 var addElementToEndOfArray = ["February", "March", "April"]
 addElementToEndOfArray.push ['May']
