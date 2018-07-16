@@ -2,8 +2,8 @@ var chocolateBars = ["snickers","hunderd grand", "kitkat", "skittles"];
 chocolateBars.push ["butterfinger"]
 
 var addElementToBeginningOfArray = ["February", "March", "April"];
-addElementToBeginningOfArray.unshift('January')
-return(addElementToBeginningOfArray);
+addElementToBeginningOfArray.unshift('January') 
+console.log(addElementToBeginningOfArray);
 
 var destructivelyAddElementToBeginningOfArray = ["February", "March", "April"]
 destructivelyAddElementToBeginningOfArray['January'] = 'January'
